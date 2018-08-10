@@ -87,15 +87,15 @@
   },
 
   // market settings
-  //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
+  //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex, graviex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "BTXC",
-    "exchange": "BTC",
-    "enabled": ["bittrex"],
+    "coin": "btxc",
+    "exchange": "btc",
+    "enabled": ["graviex"],
     "cryptopia_id": "1658",
     "ccex_key" : "Get-Your-Own-Key",
-    "default": "bittrex"
+    "default": "graviex"
   },
 
   // richlist/top100 settings
